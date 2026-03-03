@@ -1,4 +1,10 @@
  #validacion depositar
-    while deposito <= 0:
+    while monto <= 0:
         print("Por favor ingrese un depósito válido")
-        deposito = int(input("¿Cuánto desea depositar?: "))
+        monto = int(input("¿Cuánto desea depositar?: "))
+    
+#validacion retirar
+    while monto <= 0:
+        print("Por favor ingrese un monto valido a retirar: ")
+        monto = int(input("¿Cuánto desea retirar?: "))
+    
