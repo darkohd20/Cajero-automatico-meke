@@ -24,13 +24,13 @@ for i in range(operaciones):
     opcion = input("Seleccione una opción: ")
     if opcion == "1":
         print("Ejecutando opción uno...")
-        break
+
     elif opcion == "2":
         print("Ejecutando opción dos...")
-        break
+
     elif opcion == "3":
         print("Ejecutando opción tres...")
-        break
+
     elif opcion == "4":
         print("Saliendo de Ñekli ;)")
         break
