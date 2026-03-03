@@ -1,8 +1,8 @@
 def menu():
     print("\n--- Menu Ñekli ---")
-    print("1. Opción uno")
-    print("2. Opción dos")
-    print("3. Opción tres")
+    print("1. Depositar")
+    print("2. Retirar")
+    print("3. Ver saldo")
     print("4. Salir")
 
 
