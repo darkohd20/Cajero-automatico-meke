@@ -1,4 +1,4 @@
-def mostrar():
-    if len(historial) == 0:
-        print("no hay operaciones registradas.")
-        return
+
+    print("\n===== historial =====")
+    for operacion in historial:
+        print(operacion)
