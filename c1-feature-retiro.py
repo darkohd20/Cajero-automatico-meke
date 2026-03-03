@@ -10,6 +10,6 @@ try:
         elif monto > saldo:
             print("Fondos insuficientes.")
         else:
-            print(f"Operacion exitosa su salgo actual es {saldo}.")
+            print(f"Operacion exitosa su saldo actual es {saldo}.")
 except:
     print("Error:valor invalido, ingrese una de las opcines disponible")
