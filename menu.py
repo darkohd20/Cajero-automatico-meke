@@ -18,3 +18,21 @@ while True:
 
     except ValueError:
         print("Eso no es un número, inténtelo otra vez")
+
+for i in range(operaciones):
+    menu()
+    opcion = input("Seleccione una opción: ")
+    if opcion == "1":
+        print("Ejecutando opción uno...")
+        break
+    elif opcion == "2":
+        print("Ejecutando opción dos...")
+        break
+    elif opcion == "3":
+        print("Ejecutando opción tres...")
+        break
+    elif opcion == "4":
+        print("Saliendo de Ñekli ;)")
+        break
+    else:
+        print("Opción no válida, intente de nuevo.")
