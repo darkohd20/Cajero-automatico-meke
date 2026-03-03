@@ -7,4 +7,8 @@
     while monto <= 0:
         print("Por favor ingrese un monto valido a retirar: ")
         monto = int(input("¿Cuánto desea retirar?: "))
-    
+#validacion retirar 
+  try:
+
+    except:
+    print("Error:valor invalido, ingrese una de las opcines disponible")
