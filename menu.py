@@ -1,4 +1,4 @@
-from ausgfuasdif import consultar_saldo
+from saldo import consultar_saldo
 def menu():
     print("\n--- Menu Ñekli ---")
     print("1. Consultar saldo")
