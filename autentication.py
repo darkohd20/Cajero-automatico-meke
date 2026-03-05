@@ -13,7 +13,7 @@ def autenticar():
     if pin.lower() == usuario_autenticacion.lower():
         return True
     else:
-        return control-intentos(pin)
+        return control_intentos(pin)
 ingreso=autenticar()
 if ingreso:
     return menu()
