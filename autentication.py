@@ -1,5 +1,7 @@
-form control-intentos.py inmport control_intentos
-form menu.py import menu
+from datetime import datetime 
+from control_intentos import control_intentos
+from menu import operaciones
+from menu import pedir_operaciones
 
 print("Fecha:", datetime.now().strftime("%I:%M:%S %p"))
 print ("=======================")
@@ -11,9 +13,8 @@ def autenticar():
     pin =  input ("ingrese pin: ")
 
     if pin.lower() == usuario_autenticacion.lower():
-        return True
+        operacion = pedir_operaciones()
+        operaciones(operacion)
     else:
-        return control_intentos(pin)
-ingreso=autenticar()
-if ingreso:
-    return menu()
+        control_intentos(pin)
+
