@@ -1,6 +1,6 @@
-if monto<=0:
-    print("Error: El monto debe ser mayor a 0")
+def validacion():
+    if monto<=0:
+        print("Error: El monto debe ser mayor a 0")
 
-if monto > saldo:
-   print("Error: Fondos insuficientes")
-   
+    elif monto > saldo:
+     print("Error: Fondos insuficientes")   
