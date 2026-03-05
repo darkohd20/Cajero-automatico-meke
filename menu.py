@@ -1,4 +1,6 @@
 from saldo import consultar_saldo
+from retiro import retirar
+
 def menu():
     print("\n--- Menu Ñekli ---")
     print("1. Consultar saldo")
@@ -6,22 +8,23 @@ def menu():
     print("3. Depositar dinero")
     print("4. Salir")
 
-def opciones():
+
+def pedir_operaciones():
     while True:
         try:
-            operaciones = int(input("¿Cuántas operaciones desea realizar?: "))
+            cantidad = int(input("¿Cuántas operaciones desea realizar?: "))
 
-            if operaciones <= 0:
+            if cantidad <= 0:
                 print("Debe ingresar un número válido")
             else:
-                return operaciones
+                return cantidad
 
         except ValueError:
             print("Eso no es un número, inténtelo otra vez")
 
 
-def real(operaciones):
-    for i in range(operaciones):
+def operaciones(cantidad):
+    for i in range(cantidad):
 
         menu()
 
@@ -32,10 +35,10 @@ def real(operaciones):
                 consultar_saldo()
 
             elif opcion == 2:
-                print("Ejecutando opción dos...")
+                retirar()
 
             elif opcion == 3:
-                print("Ejecutando opción tres...")
+                print("Ejecutando depósito...")
 
             elif opcion == 4:
                 print("Saliendo de Ñekli ;)")
@@ -45,4 +48,4 @@ def real(operaciones):
                 print("Opción no válida")
 
         except ValueError:
-            print("Debe ingresar un número")
+            print("Eso no es un número, inténtelo otra vez")
