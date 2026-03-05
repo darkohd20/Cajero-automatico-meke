@@ -1,4 +1,4 @@
-saldo = 0
-def consultar_saldo(): 
-    return saldo
-print("Su saldo actual es:", consultar_saldo())
+saldo=1000
+def consultar_saldo():
+    print(f"Su saldo actual es: ${saldo}")
+consultar_saldo()
