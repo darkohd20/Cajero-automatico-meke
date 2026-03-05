@@ -1,4 +1,4 @@
-    elif selection == 3:
-        monto = float(input("¿Cuánto desea depositar?: "))
-        saldo += monto
-        print("Su nuevo saldo es:", saldo)
+monto = int(input("Ingrese monto a depositar: "))
+saldo += monto
+print("Depósito exitoso")
+print(f"Nuevo saldo: {saldo}")
