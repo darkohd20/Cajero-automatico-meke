@@ -1,7 +1,7 @@
 usuario_autenticacion = "David"
-def control_intentos():
+def control_intentos(pin):
 
-    for i in range(3):
+    for i in range(2):
         
 
         if pin.lower() == usuario_autenticacion.lower():
