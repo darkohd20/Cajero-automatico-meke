@@ -1,6 +1,11 @@
-def validacion():
-    if monto<=0:
-        print("Error: El monto debe ser mayor a 0")
+def validar_reglas(monto, saldo):
+
+    if monto <= 0:
+        print("El monto debe ser mayor a 0")
+        return False
 
     elif monto > saldo:
-     print("Error: Fondos insuficientes")   
+        print("Saldo insuficiente")
+        return False
+
+    return True
