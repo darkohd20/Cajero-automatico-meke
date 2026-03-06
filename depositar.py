@@ -4,8 +4,6 @@ from config import obtener_nombre
 from reglas import validar_reglas
 from validacion_numeral import validar_numero
 
-global nombre
-
 def depositar(saldo):
     monto = int(input("Ingrese monto a depositar: "))
 
