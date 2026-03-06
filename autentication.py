@@ -5,7 +5,7 @@ from menu import pedir_operaciones
 
 print("Fecha:", datetime.now().strftime("%I:%M:%S %p"))
 print ("=======================")
-print ("=TechBank Riwi digital=")
+print ("=TechBank Riwi Digital=")
 print ("=======================")
 
 def autenticar():

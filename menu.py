@@ -5,7 +5,7 @@ from historial import mostrar_historial
 from retiro import retirar
 
 def menu():
-    print("\n--- Menu Ñekli ---")
+    print("\n--- TechBank Riwi Digital ---")
     print("1. Consultar saldo")
     print("2. Retirar dinero")
     print("3. Depositar dinero")
@@ -48,7 +48,7 @@ def operaciones(cantidad):
                 mostrar_historial()
 
             elif opcion == 5:
-                print("Saliendo de Ñekli ;)")
+                print("Saliendo de TechBank Riwi Digital ;)")
                 break
 
             else:
