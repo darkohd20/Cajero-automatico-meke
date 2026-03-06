@@ -1,5 +1,3 @@
-#te faltaron unas funciones como obtener_valor_saldo y actualizar saldo
-# si necesitan explicacion le pueden decir a Cristian y hacemos una reunion y vemos parte por parte 
 from config import obtener_saldo_inicial
 
 saldo = obtener_saldo_inicial()

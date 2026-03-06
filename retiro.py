@@ -1,6 +1,3 @@
-#codigo inicial bueno, como comente antes le falta mas comunicacion porque hay funciones de otros compañeros que faltaron para que tu codigo estuviera full funcional
-# si necesitan explicacion le pueden decir a Cristian y hacemos una reunion y vemos parte por parte 
-
 from saldo import actualizar_saldo
 from historial import registrar_historial
 from config import obtener_nombre, acumular_retiros, obtener_retiros_realizados, obtener_limites_retiros
