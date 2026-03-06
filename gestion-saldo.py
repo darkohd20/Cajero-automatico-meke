@@ -10,3 +10,4 @@ def obtener_valor_saldo():
 def actualizar_saldo(nuevo_saldo):
     global saldo
     saldo = nuevo_saldo
+    
