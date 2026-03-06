@@ -5,12 +5,6 @@ retiros_realizados = 0
 limite_de_retiros = 3
 nombre = input("Ingrese su nombre: ")
 
-# este archivo config estaba incompleto, por que ? nada mas tenia el saldo y el nombre pero
-# no habia forma de obtener los valores para poder trabajarlos en los demas archivos
-#  Se crearon 5 funciones que son necesarias para obtener los valores del config en otros archivos
-#  Se agregaron 2 variables que faltaban que era retiros realizados y limite de retiros esas variables son necesarias aca en el config
-## si necesitan explicacion le pueden decir a Cristian y hacemos una reunion y vemos parte por parte 
-
 def obtener_nombre():
     return nombre
 

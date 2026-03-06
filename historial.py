@@ -1,6 +1,3 @@
-# muy buen codigo, se puede mejorar pero la implementacion es correcta
-# si necesitan explicacion le pueden decir a Cristian y hacemos una reunion y vemos parte por parte 
-
 historial = []
 
 def registrar_historial(nombre, tipo, monto, saldo):
